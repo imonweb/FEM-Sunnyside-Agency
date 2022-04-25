@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400&family=Fraunces:wght@700;900&display=swap');
+
+body {
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+}
+
+p {
+  line-height: 1.5;
+}
+
+header {
+  background: url(../images/desktop/image-header.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
