@@ -25,4 +25,10 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 /*# sourceMappingURL=main.css.map */
