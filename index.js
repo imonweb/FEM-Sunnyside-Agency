@@ -1,13 +1,6 @@
-import { library, dom } from '@fortawesome/fontawesome-svg-core';
-import { fontawesome } from 'purge-fontawesome/fontawesome-svg-icons';
+ let menu = document.querySelector('.hamburger');
 
-library.add(fontawesome);
- 
-dom.watch();
- 
-
-// import './styles.scss';
-// import './css-partials/header.scss'
-
-import './main.scss';
+ menu.addEventListener('click', () => {
+   document.querySelector('.nav').classList.toggle('toggle');
+ })
 
